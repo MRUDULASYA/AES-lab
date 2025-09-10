@@ -33,7 +33,7 @@ def decrypt(ciphertext: bytes, password: str) -> str:
     return pkcs7_unpad(padded).decode()
 
 if __name__ == "__main__":
-    message = "Hello, this is AES encryption demo!"
+    message = "Hello, this is Lasya from SRM!"
     password = "StrongPassword123"
 
     print("Plaintext:", message)
@@ -43,3 +43,4 @@ if __name__ == "__main__":
 
     decrypted = decrypt(encrypted, password)
     print("Decrypted:", decrypted)
+
